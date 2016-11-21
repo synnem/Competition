@@ -11,3 +11,32 @@
 .synne img:hover {
 	opacity: 0.7;
 }
+.logo {
+	text-align: center
+}
+header {
+	background-color: #8585ad;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 45px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	letter-spacing: 5px;
+}
+body {
+	background-color: #e0e0eb;
+}
+.logo {
+	border-style: double none;
+	border-width: 5px;
+	border-color: black;
+}
+p {
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+address {
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
