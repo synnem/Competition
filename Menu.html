@@ -8,40 +8,43 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
-    $( "#accordion" ).accordion();
-  } );
+    $( "#accordion" ).accordion({
+      heightStyle: "content",
+      collapsible: true
+    });
+  });
   </script>
+  <link rel="stylesheet" type="text/css" href="competition.css">
 </head>
 <body>
-     <div class="container-fluid">
-        <header>
-           <h1 class="logo">Franco Manca<br><small>Sourdough pizza</small></h1>
-        </header>
-    </div>
-<div id="accordion">
+  <div class="container-fluid">
+    <header>
+      <h1 class="logo">Franco Manca<br><small>Sourdough pizza</small></h1>
+    </header>
+  </div>
+<div id="accordion" class="menu">
   <h3>Pizzas</h3>
-  <div>
-    <p>
+  <div class="pizza">
      <table>
       <tr>
-        <td>Tomato, Garlic and Oregano</td>
-        <td>£4.50</td>
+        <td class="fooditem">Tomato, Garlic and Oregano</td>
+        <td class="price">£4.50</td>
       </tr>
       <tr>
-        <td>Tomato, Mozzarella and Basil</td>
-        <td>£5.90</td>
+        <td class="fooditem">Tomato, Mozzarella and Basil</td>
+        <td class="price">£5.90</td>
       </tr>
       <tr>
-        <td>Wild Broccoli, Mozzarella, Glouster Old Spot Hand Sliced Sausage (no tomato)</td>
-        <td>£6.85</td>
+        <td class="fooditem">Wild Broccoli, Mozzarella, Glouster Old Spot Hand Sliced Sausage (no tomato)</td>
+        <td class="price">£6.85</td>
       </tr>
       <tr>
-        <td>Tomato, Garlic, Oregano, Capers, Olives, Anchovies and Mozzarella</td>
-        <td>£6.70</td>
+        <td class="fooditem">Tomato, Garlic, Oregano, Capers, Olives, Anchovies and Mozzarella</td>
+        <td class="price">£6.70</td>
       </tr>
       <tr>
-        <td>Tomato, Cured Organic Chorizo (dry and semi-dry) and Mozarella</td>
-        <td>£6.95</td>
+        <td class="fooditem">Tomato, Cured Organic Chorizo (dry and semi-dry) and Mozarella</td>
+        <td class="price">£6.95</td>
       </tr>
       <tr>
         <td> Extra Toppings (£0.50 each):</td>
@@ -61,7 +64,6 @@
         </td>
       </tr>
     </table>
-  </p>
   </div>
   <h3>Salads</h3>
   <div>
@@ -125,8 +127,6 @@
         <td>£5.00</td>
         <td>£19.50</td>
       </tr>    
-    </table>
-    <table>
       <tr>
         <th>Beers</th>
         <th>Size</th>
@@ -142,8 +142,6 @@
         <td>330ml</td>
         <td>£3.40</td>
       </tr>
-    </table>
-    <table>
       <tr>
         <th>Soft Drinks</th>
           <th>Size</th>
