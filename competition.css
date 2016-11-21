@@ -1,3 +1,12 @@
+@font-face{
+	font-family: poppins;
+	src:url(poppins/poppins-regular.ttf);
+}
+@font-face{
+	font-family: poppinsbold;
+	src:url(poppins/poppins-bold.ttf);
+}
+
 .synne p {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 0.5);
@@ -38,10 +47,32 @@ p {
 address {
 	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
 }
-.fooditem {
-	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+.pizza {
+	font-family: poppins;
+	font-size:16px;
 }
 .price {
-	padding: 10px;
 	padding-left: 40px;
 }
+h3 {
+	font-family: poppins;
+	font-size: 25px;
+	border-style: solid none;
+	border-width: 1px;
+	padding-left:10px;
+}
+.toppings {
+	padding-left: 40px;
+}
+.GTK {
+	padding-left: 35px;
+	padding-right: 50px;
+}
+
+
+
+
+
+
+
+
