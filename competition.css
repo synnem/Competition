@@ -11,3 +11,10 @@
 .synne img:hover {
 	opacity: 0.7;
 }
+.fooditem {
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+.price {
+	padding: 10px;
+	padding-left: 40px;
+}
