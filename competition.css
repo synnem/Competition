@@ -50,6 +50,7 @@ address {
 .pizza {
 	font-family: poppins;
 	font-size:16px;
+	padding-left: 10px;
 }
 .price {
 	padding-left: 40px;
@@ -67,11 +68,46 @@ h3 {
 .GTK {
 	padding-left: 35px;
 	padding-right: 50px;
+	font-family: poppins;
+}
+.salads {
+	font-family: poppins;
+	font-size: 16px;
+	padding-left: 10px;
+}
+h4 {
+	text-decoration: underline;
 }
 
+ul {
+	list-style-type: none;
+}
+li {
+	margin-bottom: 5px;
+}
+.drinks {
+	font-family: poppins;
+	font-size: 16px;
+	padding-left: 10px;
+}
 
+.drinktitle {
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: left;
 
-
+}
+.drinkdetailtitle {
+	font-size: 20px;
+	text-decoration: underline;
+	padding-left: 40px;
+	text-align: left;
+}
+.drinkdetail{
+	text-align: left;
+	vertical-align: top;
+	padding-left: 40px;
+}
 
 
 
