@@ -124,7 +124,6 @@ address {
 	vertical-align: top;
 	padding-left: 40px;
 }
-<<<<<<< HEAD
 .mission {
     text-align: center;
     background-color: rgba(32, 35, 41, 0.9);
@@ -148,7 +147,8 @@ address {
 	border-color: #009ad5; 
 }
 .btn-facebook {
- 	background-color: #4868ac; border-color: #314776;
+ 	background-color: #4868ac; 
+ 	border-color: #314776;
 }
 .btn-pinterest {
 	background-color: #b62f26;
