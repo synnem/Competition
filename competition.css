@@ -240,3 +240,8 @@ address {
 .row {
 	margin-top: 40px;
 }
+#social-buttons {
+	position: absolute;
+	left: 50%
+	right: 50%;
+}
