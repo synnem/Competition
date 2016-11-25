@@ -24,6 +24,13 @@ h1 {
 	padding-bottom: 30px;
 	letter-spacing: 5px;
 }
+#welcome {
+	margin-top: 30px;
+}
+h2 {
+	font-family: poppins;
+	font-size: 22px;
+}
 h3 {
 	font-family: poppins;
 	font-size: 25px;
@@ -59,11 +66,20 @@ body {
 	border-color: black;
 	text-align: center;
 }
-.nav li {
-	padding-right: 30px;
-}
+
 .nav {
 	background-color: rgba(150, 150, 150, 0.5);
+}
+.nav li {
+    display:block;
+    float:left;
+    width: 25%;
+    padding-right: 30px;
+    text-align: center;
+}
+.nav li a {
+    display:block;
+    text-align: center;
 }
 #welcome {
 	text-align: center;
@@ -162,15 +178,25 @@ address {
 .carousel-inner img {
 	height: 50px;
 }
+#myCarousel{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
 .imgpizza { 
 	float: right;
 	float: top;
 	opacity: 0.75;
 	height: auto;
 	width: auto;
-	max-height:475px;
+	max-height:360px;
 	margin-right: 40px;
 } 
+.saladtable{
+	margin-top: 30px;
+	margin-bottom: 75px;
+}
 .imgsalad {	
 	float: right;
 	float: top;
@@ -180,22 +206,7 @@ address {
 	width: auto;
 	max-height:225px;
 	max-width: 225px;
-	margin-right: 100px;
-}
-.salads {
-	margin-bottom: 70px;
-	margin-top: 50px;
-}
-.imgGTK{
-	float: right;
-	float: top;
-	opacity: 0.75;
-	height: auto;
-	width: auto;
-	margin-right: 15px;
-	margin-top: 80px;
-	margin-left: 30px;
-	margin-bottom: 15px;
+	margin-right: 40px;
 }
 .imgdrinks{
 	float: right;
@@ -203,7 +214,29 @@ address {
 	opacity: 0.75;
 	height: auto;
 	width: auto;
-	max-height:475px;
-	margin-right: 60px;
-	margin-top: 60px;
+	max-height:450px;
+	margin-right: 40px;
+	margin-top: 35px;
+}
+.imgGTK{
+	float: right;
+	float: top;
+	opacity: 0.75;
+	height: auto;
+	width: auto;
+	max-height: 400px;
+	margin-right: 40px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.nav-tabs{
+	font-family: poppins;
+	font-size: 13px;
+}
+.reviews {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.row {
+	margin-top: 40px;
 }
