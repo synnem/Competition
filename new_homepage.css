@@ -1,39 +1,4 @@
 
-
-
-a {
-  color: white;
-}
-h1 {
-  font-family: helvetica, sans-serif;
-  text-align: center;
-  background: url('https://leeds-list.com/wp-content/uploads/2016/02/polpo-pre-opening-no-creidt-7-copy.jpg');
-  background-size: cover;
-  color: white;
-  font-size: 200px;
-}
-
-}
-h3{
-    font-family: helvetica, sans-serif;
-    text-align: center;
-    color: inherit;
-  font-size: 25px;
-}
-
-nav nav-tabs{ text-align: center;
-}
-
-.mission {
-    text-align: center;
-    background-color: rgba(32, 35, 41, 0.9);
-    font-color:#ddd;
-    padding-bottom: 40px;
-}
-first {
-  padding:10px;
-  
-}
 Body {
   font-family: helvetica, sans-serif;
   color: inherit;
@@ -43,7 +8,6 @@ Body {
   margin: 0 auto;
 }
 
-}
 img {
   margin: 10px 0px 0px 0px;
   border: 7px solid white;
@@ -53,40 +17,4 @@ ul {
   padding: 10px;
   background: rgba(0,0,0,0.5);
 }
-
-
-.mc_merge_var {
-  text-align: center;
-}
-
-.mc_signup_submit {
-   text-align: center;
-
-}
-
-.container {
-  font-size: 20px;
-  max-width:1200px;
-  margin: 0 auto;
-}
-
-.btn-twitter {
-background-color: #00acee;
-border-color: #009ad5; 
-}
-
-.btn-facebook {
- background-color: #4868ac; border-color: #314776;
-}
-
-.btn-pinterest {
-background-color: #b62f26;
-border-color: #b62f26
-}
-
-
-.footer__legal{
-   text-align: center;
-}
-
 

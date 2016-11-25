@@ -6,7 +6,37 @@
 	font-family: poppinsbold;
 	src:url(poppins/poppins-bold.ttf);
 }
-
+header {
+	background-color: #8585ad;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 45px;
+	padding-top: 30px;
+	letter-spacing: 5px;
+}
+.logo h2 {
+	color: white;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 28px;
+	padding-bottom: 30px;
+	letter-spacing: 5px;
+}
+h3 {
+	font-family: poppins;
+	font-size: 25px;
+	border-style: solid none;
+	border-width: 1px;
+	padding-left:10px;
+}
+h4 {
+	text-decoration: underline;
+}
+p {
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
 .synne p {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 0.5);
@@ -17,20 +47,8 @@
   bottom: 0;
   margin: 0;
 }
-.synne img:hover {
-	opacity: 0.7;
-}
-header {
-	background-color: #8585ad;
-	text-align: center;
-}
-h1 {
-	color: white;
-	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
-	font-size: 45px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	letter-spacing: 5px;
+a {
+  color: white;
 }
 body {
 	background-color: #e0e0eb;
@@ -39,10 +57,19 @@ body {
 	border-style: double none;
 	border-width: 5px;
 	border-color: black;
-	text-align: center
+	text-align: center;
 }
-p {
-	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+.nav li {
+	padding-right: 30px;
+}
+.nav {
+	background-color: rgba(150, 150, 150, 0.5);
+}
+#welcome {
+	text-align: center;
+}
+.synne img:hover {
+	opacity: 0.7;
 }
 address {
 	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
@@ -54,13 +81,6 @@ address {
 }
 .price {
 	padding-left: 40px;
-}
-h3 {
-	font-family: poppins;
-	font-size: 25px;
-	border-style: solid none;
-	border-width: 1px;
-	padding-left:10px;
 }
 .toppings {
 	padding-left: 40px;
@@ -75,14 +95,10 @@ h3 {
 	font-size: 16px;
 	padding-left: 10px;
 }
-h4 {
-	text-decoration: underline;
-}
-
-ul {
+.francie ul {
 	list-style-type: none;
 }
-li {
+.francie li {
 	margin-bottom: 5px;
 }
 .drinks {
@@ -108,7 +124,43 @@ li {
 	vertical-align: top;
 	padding-left: 40px;
 }
-
-
+.mission {
+    text-align: center;
+    background-color: rgba(32, 35, 41, 0.9);
+    font-color:#ddd;
+    padding-bottom: 40px;
+}
+.mc_merge_var {
+  text-align: center;
+}
+.mc_signup_submit {
+   text-align: center;
+}
+.container {
+  font-size: 20px;
+  max-width:1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5; 
+}
+.btn-facebook {
+ 	background-color: #4868ac; border-color: #314776;
+}
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26
+}
+.footer__legal{
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 5px;
+}
+.carousel-inner img {
+	height: 50px;
+}
+}
 
 

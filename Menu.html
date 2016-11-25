@@ -14,13 +14,31 @@
     });
   });
   </script>
+  <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="competition.css">
 </head>
 <body>
   <div class="container-fluid">
     <header>
-      <h1 class="logo">Franco Manca<br><small>Sourdough pizza</small></h1>
+      <div class="logo">
+          <h1>Franco Manca</h1>
+          <h2>Sourdough pizza</h2>
     </header>
+  <div>
+  <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">HOME</a></li>
+      <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">YOUR LOCAL</a></li>
+      <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">MENU</a></li>
+      <li role="presentation"><a href="#settings"  role="tab" data-toggle="tab">RESERVATIONS</a></li>
+    </ul>
+  <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="Home"></div>
+      <div role="tabpanel" class="tab-pane" id="Yourlocal"></div>
+      <div role="tabpanel" class="tab-pane" id="Menu"></div>
+      <div role="tabpanel" class="tab-pane" id="Reservations"></div>
+    </div>
   </div>
 <div id="accordion" class="menu">
   <h3>Pizzas</h3>
@@ -57,7 +75,7 @@
       </tr>
       <tr>
         <td>
-          <ul>
+          <ul class="francie">
             <li><strong>Mozzarella</strong> - Somerset </li>
             <li><strong>Soft Goat's Cured</strong> - White Lake Dairy</li>
             <li><strong>Stilton</strong> - Colston Basset</li>
@@ -206,7 +224,9 @@
     </ul>
     </div>
   </div>
+  </div>
 </div>
+<p class="footer__legal"><span class="footer__legal__copy">© Code First Girls . All rights reserved.</span><span class="footer__legal__design">Site design by: <a target="_blank">Girls</a></span></p>
 </body>
 </html>
 
