@@ -148,9 +148,11 @@ address {
 }
 .mc_merge_var {
   text-align: center;
+  display: inline-block;
 }
 .mc_signup_submit {
    text-align: center;
+   display: inline-block;
 }
 .container {
   font-size: 20px;
@@ -241,7 +243,16 @@ address {
 	margin-top: 40px;
 }
 #social-buttons {
-	position: absolute;
-	left: 50%
-	right: 50%;
+	padding-right: 70px;
+	display: inline-block;
+}
+#socialmedia {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+.btn-success {
+	background-color: rgba(150, 150, 150, 1);
+	border-color: rgba(100, 100, 100, 1);
 }
