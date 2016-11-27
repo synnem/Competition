@@ -181,8 +181,8 @@ address {
 	height: 50px;
 }
 #myCarousel{
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 120px;
+	margin-left: 120px;
 	margin-top: 40px;
 }
 
@@ -251,7 +251,9 @@ address {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 20px;
+	color: white;
 }
+
 .btn-success {
 	background-color: rgba(150, 150, 150, 1);
 	border-color: rgba(100, 100, 100, 1);
