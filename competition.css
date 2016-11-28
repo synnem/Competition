@@ -1,11 +1,11 @@
-@font-face{
+/*@font-face{
 	font-family: poppins;
 	src:url(poppins/poppins-regular.ttf);
 }
 @font-face{
 	font-family: poppinsbold;
 	src:url(poppins/poppins-bold.ttf);
-}
+} */ 
 header {
 	background-color: #8585ad;
 	text-align: center;
@@ -28,11 +28,11 @@ h1 {
 	margin-top: 30px;
 }
 h2 {
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size: 22px;
 }
 h3 {
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size: 25px;
 	border-style: solid none;
 	border-width: 1px;
@@ -91,7 +91,7 @@ address {
 	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
 }
 .pizza {
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size:16px;
 	padding-left: 10px;
 }
@@ -104,10 +104,10 @@ address {
 .GTK {
 	padding-left: 35px;
 	padding-right: 50px;
-	font-family: poppins;
+	font-family: 'poppins';
 }
 .salads {
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size: 16px;
 	padding-left: 10px;
 }
@@ -118,7 +118,7 @@ address {
 	margin-bottom: 5px;
 }
 .drinks {
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size: 16px;
 	padding-left: 10px;
 }
@@ -230,7 +230,7 @@ address {
 	margin-left: 60px;
 }
 .nav-tabs{
-	font-family: poppins;
+	font-family: 'poppins';
 	font-size: 13px;
 }
 .reviews {
