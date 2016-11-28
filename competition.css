@@ -257,3 +257,6 @@ address {
 	position: fixed;
 	bottom: 0;
 }
+.mc_input {
+	color: black;
+}
